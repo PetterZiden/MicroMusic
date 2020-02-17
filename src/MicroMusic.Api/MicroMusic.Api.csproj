@@ -27,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\mocks\MicroMusic.Spotify.Mock\MicroMusic.Spotify.Mock.csproj" />
     <ProjectReference Include="..\MicroMusic.Domain\MicroMusic.Domain.csproj" />
     <ProjectReference Include="..\MicroMusic.Spotify\MicroMusic.Spotify.csproj" />
   </ItemGroup>

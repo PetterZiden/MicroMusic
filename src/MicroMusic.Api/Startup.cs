@@ -104,7 +104,14 @@ namespace MicroMusic.Api
 
             builder.RegisterInstance(Configuration).As<IConfiguration>();
 
-            builder.RegisterType<SpotifyService>().As<ISpotifyService>();
+            if (Configuration.GetSection("SpotifyServiceSettings").GetValue<bool>("UseMockData"))
+            {
+                builder.RegisterType<Spotify.Mock.SpotifyService>().As<ISpotifyService>();
+            }
+            else
+            {
+                builder.RegisterType<SpotifyService>().As<ISpotifyService>();
+            }
 
             builder.Populate(services);
 

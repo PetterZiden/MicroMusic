@@ -1,0 +1,24 @@
+{
+  "Artists": [
+    {
+      "Id": "8rktFgwwKwno4MLmIQChQ9",
+      "Name": "Copywrite",
+      "Genres": [
+        "HipHop",
+        "Rap"
+      ],
+      "Type": "Artist",
+      "Popularity": 8
+    },
+    {
+      "Id": "2ojjWnjeQiiyo9MVaEDCpP1",
+      "Name": "Nas",
+      "Genres": [
+        "HipHop",
+        "Rap"
+      ],
+      "Type": "Artist",
+      "Popularity": 7
+    }
+  ]
+}
