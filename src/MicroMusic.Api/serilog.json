@@ -1,0 +1,20 @@
+{
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console" ],
+    "MinimumLevel": {
+      "Default": "Verbose",
+      "Override": {
+        "Microsoft": "Error",
+        "System": "Error"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "[{Timestamp:HH:mm:ss} {Level:u3}] {SourceContext}{NewLine}    {Message}{NewLine}{Exception}"
+        }
+      }
+    ]
+  }
+}

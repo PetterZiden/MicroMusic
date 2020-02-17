@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroMusic.Api", "src\MicroMusic.Api\MicroMusic.Api.csproj", "{0D5C18EE-D58D-47A3-9BCB-D0B199CC24CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroMusic.Spotify", "src\MicroMusic.Spotify\MicroMusic.Spotify.csproj", "{2178E46F-5ED5-4D6E-B1C5-2ADAEB42E433}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroMusic.Domain", "src\MicroMusic.Domain\MicroMusic.Domain.csproj", "{484A5892-A397-4F86-84CA-448340E023B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EDE95CF3-99AF-4A9A-84EB-810D52F4D62C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mocks", "Mocks", "{F421D7AB-0B3D-4BC7-8C17-CE5EB8EE9FEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D5C18EE-D58D-47A3-9BCB-D0B199CC24CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5C18EE-D58D-47A3-9BCB-D0B199CC24CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5C18EE-D58D-47A3-9BCB-D0B199CC24CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5C18EE-D58D-47A3-9BCB-D0B199CC24CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2178E46F-5ED5-4D6E-B1C5-2ADAEB42E433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2178E46F-5ED5-4D6E-B1C5-2ADAEB42E433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2178E46F-5ED5-4D6E-B1C5-2ADAEB42E433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2178E46F-5ED5-4D6E-B1C5-2ADAEB42E433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484A5892-A397-4F86-84CA-448340E023B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484A5892-A397-4F86-84CA-448340E023B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484A5892-A397-4F86-84CA-448340E023B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484A5892-A397-4F86-84CA-448340E023B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACDE3A70-11E9-450F-97F8-29C73DE8359A}
+	EndGlobalSection
+EndGlobal
